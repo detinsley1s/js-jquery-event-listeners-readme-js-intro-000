@@ -9,7 +9,7 @@ function frameIt() {
 
 function pressIt() {
   $('form').on('keydown', key => {
-    if(key.which === 'G') {
+    if(key.which === 71) {
       alert('You pressed the G key')
     }
   })
