@@ -4,7 +4,7 @@ function getIt() {
 }
 
 function frameIt() {
-  $('img').on('load', e => e.addClass('tasty'))
+  $('img').addClass('tasty')
 }
 
 $(document).ready(function(){
